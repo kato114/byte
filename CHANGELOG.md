@@ -188,7 +188,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 ### Bug Fixes
 
 - (upgrade) [#1644](https://github.com/kato114/byte/pull/1644) Adjust upgrade constants
-- (ci) [#1642](https://github.com/kato114/byte/pull/1642) Fix target folder in GH action to push to the [Buf Schema Registry](https://buf.build/evmos/evmos) upon release
+- (ci) [#1642](https://github.com/kato114/byte/pull/1642) Fix target folder in GH action to push to the [Buf Schema Registry](https://buf.build/kato114/byte) upon release
 
 ## [v13.0.1] - 2023-07-04
 
@@ -244,7 +244,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 ### Bug Fixes
 
 - (ci) [#1546](https://github.com/kato114/byte/pull/1546) Fix docker image push on release action
-- (ci) [#1475](https://github.com/kato114/byte/pull/1475) Fix version of GitHub action to push to the [Buf Schema Registry](https://buf.build/evmos/evmos) upon releases
+- (ci) [#1475](https://github.com/kato114/byte/pull/1475) Fix version of GitHub action to push to the [Buf Schema Registry](https://buf.build/kato114/byte) upon releases
 
 ## [v12.1.3] - 2023-05-24
 
@@ -545,7 +545,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### API Breaking
 
-- (all) [\#701](https://github.com/kato114/byte/pull/703) Rename Go module to `evmos/evmos`
+- (all) [\#701](https://github.com/kato114/byte/pull/703) Rename Go module to `kato114/byte`
 
 ### Improvements
 

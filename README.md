@@ -9,10 +9,10 @@ parent:
 
 <div align="center">
   <a href="https://github.com/kato114/byte/releases/latest">
-    <img alt="Version" src="https://img.shields.io/github/tag/evmos/evmos.svg" />
+    <img alt="Version" src="https://img.shields.io/github/tag/kato114/byte.svg" />
   </a>
   <a href="https://github.com/kato114/byte/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/evmos/evmos.svg" />
+    <img alt="License" src="https://img.shields.io/github/license/kato114/byte.svg" />
   </a>
   <a href="https://pkg.go.dev/github.com/kato114/byte">
     <img alt="GoDoc" src="https://godoc.org/github.com/kato114/byte?status.svg" />
@@ -28,8 +28,8 @@ parent:
   <a href="https://github.com/kato114/byte/actions?query=branch%3Amain+workflow%3ALint">
     <img alt="Lint Status" src="https://github.com/kato114/byte/actions/workflows/lint.yml/badge.svg?branch=main" />
   </a>
-  <a href="https://codecov.io/gh/evmos/evmos">
-    <img alt="Code Coverage" src="https://codecov.io/gh/evmos/evmos/branch/main/graph/badge.svg" />
+  <a href="https://codecov.io/gh/kato114/byte">
+    <img alt="Code Coverage" src="https://codecov.io/gh/kato114/byte/branch/main/graph/badge.svg" />
   </a>
   <a href="https://twitter.com/EvmosOrg">
     <img alt="Twitter Follow Evmos" src="https://img.shields.io/twitter/follow/EvmosOrg"/>

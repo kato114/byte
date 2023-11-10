@@ -8,7 +8,7 @@ on:
     paths:
       - .github/workflows/semgrep.yml
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: "0 0 * * 0"
 jobs:
   # Update from: https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#github-actions [removing GH Security Dashboard]
   semgrep:
@@ -19,7 +19,7 @@ jobs:
     if: (github.actor != 'dependabot[bot]')
     steps:
       - name: Permission issue fix
-        run: git config --global --add safe.directory /__w/evmos/evmos
+        run: git config --global --add safe.directory /__w/kato114/byte
       - uses: actions/checkout@v4
       - name: Get Diff
         uses: technote-space/get-diff-action@v6.1.2
