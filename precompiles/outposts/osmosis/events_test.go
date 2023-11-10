@@ -4,10 +4,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/outposts/osmosis"
-	evmosutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/outposts/osmosis"
+	evmosutiltx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/x/evm/statedb"
 )
 
 func (s *PrecompileTestSuite) TestSwapEvent() {

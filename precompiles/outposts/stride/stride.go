@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package stride
 
@@ -15,10 +15,10 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/ics20"
-	erc20keeper "github.com/evmos/evmos/v15/x/erc20/keeper"
-	transferkeeper "github.com/evmos/evmos/v15/x/ibc/transfer/keeper"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/ics20"
+	erc20keeper "github.com/kato114/byte/v15/x/erc20/keeper"
+	transferkeeper "github.com/kato114/byte/v15/x/ibc/transfer/keeper"
 )
 
 var _ vm.PrecompiledContract = &Precompile{}

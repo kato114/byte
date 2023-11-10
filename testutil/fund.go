@@ -1,13 +1,13 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package testutil
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/evmos/evmos/v15/utils"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
+	"github.com/kato114/byte/v15/utils"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 // FundAccount is a utility function that funds an account by minting and

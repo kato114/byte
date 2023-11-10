@@ -9,7 +9,7 @@ BINDIR ?= $(GOPATH)/bin
 EVMOS_BINARY = evmosd
 EVMOS_DIR = evmos
 BUILDDIR ?= $(CURDIR)/build
-HTTPS_GIT := https://github.com/evmos/evmos.git
+HTTPS_GIT := https://github.com/kato114/byte.git
 DOCKER := $(shell which docker)
 DOCKER_BUILDKIT=1
 DOCKER_ARGS=
@@ -293,7 +293,7 @@ swagger-update-docs: statik
 .PHONY: swagger-update-docs
 
 godocs:
-	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/evmos/evmos"
+	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/kato114/byte"
 	godoc -http=:6060
 
 ###############################################################################
@@ -527,7 +527,7 @@ localnet-show-logstream:
 ###                                Releasing                                ###
 ###############################################################################
 
-PACKAGE_NAME:=github.com/evmos/evmos
+PACKAGE_NAME:=github.com/kato114/byte
 GOLANG_CROSS_VERSION  = v1.20
 GOPATH ?= '$(HOME)/go'
 release-dry-run:

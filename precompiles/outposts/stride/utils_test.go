@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package stride_test
 
 import (
@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"time"
 
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
 
-	"github.com/evmos/evmos/v15/precompiles/outposts/stride"
+	"github.com/kato114/byte/v15/precompiles/outposts/stride"
 
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/crypto/tmhash"
@@ -29,17 +29,17 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
-	evmosapp "github.com/evmos/evmos/v15/app"
-	evmosibc "github.com/evmos/evmos/v15/ibc/testing"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	evmosutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	evmostypes "github.com/evmos/evmos/v15/types"
-	"github.com/evmos/evmos/v15/utils"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
+	evmosapp "github.com/kato114/byte/v15/app"
+	evmosibc "github.com/kato114/byte/v15/ibc/testing"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	evmosutiltx "github.com/kato114/byte/v15/testutil/tx"
+	evmostypes "github.com/kato114/byte/v15/types"
+	"github.com/kato114/byte/v15/utils"
+	"github.com/kato114/byte/v15/x/evm/statedb"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 const (

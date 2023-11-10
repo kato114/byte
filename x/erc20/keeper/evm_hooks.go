@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package keeper
 
@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 
-	"github.com/evmos/evmos/v15/contracts"
-	"github.com/evmos/evmos/v15/x/erc20/types"
+	"github.com/kato114/byte/v15/contracts"
+	"github.com/kato114/byte/v15/x/erc20/types"
 )
 
 var _ evmtypes.EvmHooks = Hooks{}

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package stride_test
 
@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/evmos/evmos/v15/utils"
+	"github.com/kato114/byte/v15/utils"
 
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	common "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/outposts/stride"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/outposts/stride"
 )
 
 func (s *PrecompileTestSuite) TestLiquidStake() {

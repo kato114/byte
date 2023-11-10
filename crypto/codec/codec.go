@@ -1,12 +1,12 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package codec
 
 import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
+	"github.com/kato114/byte/v15/crypto/ethsecp256k1"
 )
 
 // RegisterInterfaces register the Evmos key concrete types.

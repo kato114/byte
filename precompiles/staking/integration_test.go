@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package staking_test
 
 import (
@@ -19,16 +19,16 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	compiledcontracts "github.com/evmos/evmos/v15/contracts"
-	"github.com/evmos/evmos/v15/precompiles/authorization"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/distribution"
-	"github.com/evmos/evmos/v15/precompiles/staking"
-	"github.com/evmos/evmos/v15/precompiles/staking/testdata"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
-	"github.com/evmos/evmos/v15/precompiles/testutil/contracts"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	testutiltx "github.com/evmos/evmos/v15/testutil/tx"
+	compiledcontracts "github.com/kato114/byte/v15/contracts"
+	"github.com/kato114/byte/v15/precompiles/authorization"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/distribution"
+	"github.com/kato114/byte/v15/precompiles/staking"
+	"github.com/kato114/byte/v15/precompiles/staking/testdata"
+	"github.com/kato114/byte/v15/precompiles/testutil"
+	"github.com/kato114/byte/v15/precompiles/testutil/contracts"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	testutiltx "github.com/kato114/byte/v15/testutil/tx"
 )
 
 // General variables used for integration tests

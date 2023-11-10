@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package app
 
@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	v82 "github.com/evmos/evmos/v15/app/upgrades/v8_2"
-	"github.com/evmos/evmos/v15/utils"
+	v82 "github.com/kato114/byte/v15/app/upgrades/v8_2"
+	"github.com/kato114/byte/v15/utils"
 )
 
 // ScheduleForkUpgrade executes any necessary fork logic for based upon the current

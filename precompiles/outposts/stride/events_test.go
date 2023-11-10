@@ -7,9 +7,9 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/outposts/stride"
-	"github.com/evmos/evmos/v15/utils"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/outposts/stride"
+	"github.com/kato114/byte/v15/utils"
 )
 
 const receiver = "stride1rhe5leyt5w0mcwd9rpp93zqn99yktsxvyaqgd0"

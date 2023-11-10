@@ -1,15 +1,15 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package network
 
 import (
 	"math/big"
 
-	testtx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/utils"
+	testtx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/utils"
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
-	evmostypes "github.com/evmos/evmos/v15/types"
+	evmostypes "github.com/kato114/byte/v15/types"
 )
 
 // Config defines the configuration for a chain.

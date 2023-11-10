@@ -1,12 +1,12 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package types
 
 import (
 	fmt "fmt"
 
-	epochstypes "github.com/evmos/evmos/v15/x/epochs/types"
+	epochstypes "github.com/kato114/byte/v15/x/epochs/types"
 )
 
 // NewGenesisState creates a new GenesisState object

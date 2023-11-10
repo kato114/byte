@@ -3,9 +3,9 @@ package keeper_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v15/testutil"
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/claims/types"
+	"github.com/kato114/byte/v15/testutil"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/x/claims/types"
 )
 
 func (suite *KeeperTestSuite) TestClaimsInvariant() {

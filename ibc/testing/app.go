@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package ibctesting
 
@@ -22,9 +22,9 @@ import (
 
 	ibcgotesting "github.com/cosmos/ibc-go/v7/testing"
 
-	evmosapp "github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/types"
-	"github.com/evmos/evmos/v15/utils"
+	evmosapp "github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/types"
+	"github.com/kato114/byte/v15/utils"
 )
 
 // DefaultTestingAppInit is a test helper function used to initialize an App

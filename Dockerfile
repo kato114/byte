@@ -1,6 +1,6 @@
 FROM golang:1.21.4-alpine3.18 AS build-env
 
-WORKDIR /go/src/github.com/evmos/evmos
+WORKDIR /go/src/github.com/kato114/byte
 
 COPY go.mod go.sum ./
 
@@ -20,7 +20,7 @@ FROM alpine:3.18
 
 WORKDIR /root
 
-COPY --from=build-env /go/src/github.com/evmos/evmos/build/evmosd /usr/bin/evmosd
+COPY --from=build-env /go/src/github.com/kato114/byte/build/evmosd /usr/bin/evmosd
 COPY --from=build-env /go/bin/toml-cli /usr/bin/toml-cli
 
 RUN apk add --no-cache ca-certificates=20230506-r0 jq=1.6-r3 curl=8.4.0-r0 bash=5.2.15-r5 vim=9.0.1568-r0 lz4=1.9.4-r4 rclone=1.62.2-r5 \

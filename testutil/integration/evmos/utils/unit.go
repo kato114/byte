@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 //
 // This file contains all utility function that require the access to the unit
 // test network and should only be used in unit tests.
@@ -11,9 +11,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
-	"github.com/evmos/evmos/v15/testutil/integration/evmos/network"
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
+	"github.com/kato114/byte/v15/testutil/integration/evmos/network"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 const (

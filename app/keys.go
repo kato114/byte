@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package app
 
@@ -22,16 +22,16 @@ import (
 	icahosttypes "github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/host/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
-	claimstypes "github.com/evmos/evmos/v15/x/claims/types"
-	epochstypes "github.com/evmos/evmos/v15/x/epochs/types"
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
-	incentivestypes "github.com/evmos/evmos/v15/x/incentives/types"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
-	recoverytypes "github.com/evmos/evmos/v15/x/recovery/types"
-	revenuetypes "github.com/evmos/evmos/v15/x/revenue/v1/types"
-	vestingtypes "github.com/evmos/evmos/v15/x/vesting/types"
+	claimstypes "github.com/kato114/byte/v15/x/claims/types"
+	epochstypes "github.com/kato114/byte/v15/x/epochs/types"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
+	incentivestypes "github.com/kato114/byte/v15/x/incentives/types"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
+	recoverytypes "github.com/kato114/byte/v15/x/recovery/types"
+	revenuetypes "github.com/kato114/byte/v15/x/revenue/v1/types"
+	vestingtypes "github.com/kato114/byte/v15/x/vesting/types"
 )
 
 // StoreKeys returns the application store keys,

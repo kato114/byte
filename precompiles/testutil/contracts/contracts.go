@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package contracts
 
@@ -11,11 +11,11 @@ import (
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	evmosapp "github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmosapp "github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/crypto/ethsecp256k1"
+	"github.com/kato114/byte/v15/precompiles/testutil"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 )
 
 // Call is a helper function to call any arbitrary smart contract.

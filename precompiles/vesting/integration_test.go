@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package vesting_test
 
 import (
@@ -10,14 +10,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
-	"github.com/evmos/evmos/v15/precompiles/testutil/contracts"
-	"github.com/evmos/evmos/v15/precompiles/vesting"
-	"github.com/evmos/evmos/v15/precompiles/vesting/testdata"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	testutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	vestingtypes "github.com/evmos/evmos/v15/x/vesting/types"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/testutil"
+	"github.com/kato114/byte/v15/precompiles/testutil/contracts"
+	"github.com/kato114/byte/v15/precompiles/vesting"
+	"github.com/kato114/byte/v15/precompiles/vesting/testdata"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	testutiltx "github.com/kato114/byte/v15/testutil/tx"
+	vestingtypes "github.com/kato114/byte/v15/x/vesting/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"

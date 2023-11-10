@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package types
 
@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	evm "github.com/evmos/evmos/v15/x/evm/types"
+	evm "github.com/kato114/byte/v15/x/evm/types"
 )
 
 var ParamsKey = []byte("Params")

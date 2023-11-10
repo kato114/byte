@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package incentives
 
@@ -20,9 +20,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/evmos/evmos/v15/x/incentives/client/cli"
-	"github.com/evmos/evmos/v15/x/incentives/keeper"
-	"github.com/evmos/evmos/v15/x/incentives/types"
+	"github.com/kato114/byte/v15/x/incentives/client/cli"
+	"github.com/kato114/byte/v15/x/incentives/keeper"
+	"github.com/kato114/byte/v15/x/incentives/types"
 )
 
 // consensusVersion defines the current x/incentives module consensus version.

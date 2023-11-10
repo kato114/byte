@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package coordinator
 
 import (
@@ -9,9 +9,9 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
-	evmosibc "github.com/evmos/evmos/v15/ibc/testing"
-	"github.com/evmos/evmos/v15/testutil/integration/common/network"
-	ibcchain "github.com/evmos/evmos/v15/testutil/integration/ibc/chain"
+	evmosibc "github.com/kato114/byte/v15/ibc/testing"
+	"github.com/kato114/byte/v15/testutil/integration/common/network"
+	ibcchain "github.com/kato114/byte/v15/testutil/integration/ibc/chain"
 )
 
 // Coordinator is the interface that defines the methods that are used to

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package app
 
 import (
@@ -24,8 +24,8 @@ import (
 	tmtypes "github.com/cometbft/cometbft/proto/tendermint/types"
 	cmtypes "github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v15/encoding"
-	"github.com/evmos/evmos/v15/utils"
+	"github.com/kato114/byte/v15/encoding"
+	"github.com/kato114/byte/v15/utils"
 )
 
 // EthDefaultConsensusParams defines the default Tendermint consensus params used in

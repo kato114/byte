@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/evmos/evmos/v15/precompiles/authorization"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
+	"github.com/kato114/byte/v15/precompiles/authorization"
+	"github.com/kato114/byte/v15/precompiles/testutil"
 )
 
 //nolint:dupl // tests are not duplicate between the functions

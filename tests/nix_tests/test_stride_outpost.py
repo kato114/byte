@@ -79,7 +79,7 @@ def test_liquid_stake(ibc):
     # FIXME gasUsed should be same as estimation
     # ATM gas estimation is always higher than gas used
     # in precompiles.
-    # Possible fix here https://github.com/evmos/evmos/pull/1943
+    # Possible fix here https://github.com/kato114/byte/pull/1943
     # assert receipt.gasUsed == gas_estimation
     print(f"gas estimation {gas_estimation}")
     print(f"gas used: {receipt.gasUsed}")

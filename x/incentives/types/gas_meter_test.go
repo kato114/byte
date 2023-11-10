@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/incentives/types"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/x/incentives/types"
 )
 
 type GasMeterTestSuite struct {

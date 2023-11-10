@@ -9,10 +9,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/evmos/evmos/v15/precompiles/erc20"
-	commonfactory "github.com/evmos/evmos/v15/testutil/integration/common/factory"
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
+	"github.com/kato114/byte/v15/precompiles/erc20"
+	commonfactory "github.com/kato114/byte/v15/testutil/integration/common/factory"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
 )
 
 // setupSendAuthz is a helper function to set up a SendAuthorization for

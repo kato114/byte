@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package debug
 
 import (
@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/evmos/evmos/v15/ethereum/eip712"
-	evmos "github.com/evmos/evmos/v15/types"
+	"github.com/kato114/byte/v15/ethereum/eip712"
+	evmos "github.com/kato114/byte/v15/types"
 	"github.com/pkg/errors"
 
 	"github.com/cometbft/cometbft/libs/bytes"

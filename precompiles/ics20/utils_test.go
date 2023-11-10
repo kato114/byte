@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package ics20_test
 
 import (
@@ -29,22 +29,22 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
-	evmosapp "github.com/evmos/evmos/v15/app"
-	evmoscontracts "github.com/evmos/evmos/v15/contracts"
-	evmosibc "github.com/evmos/evmos/v15/ibc/testing"
-	"github.com/evmos/evmos/v15/precompiles/authorization"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/ics20"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
-	"github.com/evmos/evmos/v15/precompiles/testutil/contracts"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	evmosutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	evmostypes "github.com/evmos/evmos/v15/types"
-	"github.com/evmos/evmos/v15/utils"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
+	evmosapp "github.com/kato114/byte/v15/app"
+	evmoscontracts "github.com/kato114/byte/v15/contracts"
+	evmosibc "github.com/kato114/byte/v15/ibc/testing"
+	"github.com/kato114/byte/v15/precompiles/authorization"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/ics20"
+	"github.com/kato114/byte/v15/precompiles/testutil"
+	"github.com/kato114/byte/v15/precompiles/testutil/contracts"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	evmosutiltx "github.com/kato114/byte/v15/testutil/tx"
+	evmostypes "github.com/kato114/byte/v15/types"
+	"github.com/kato114/byte/v15/utils"
+	"github.com/kato114/byte/v15/x/evm/statedb"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"

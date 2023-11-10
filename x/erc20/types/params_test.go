@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/evmos/evmos/v15/x/erc20/types"
+	"github.com/kato114/byte/v15/x/erc20/types"
 	"github.com/stretchr/testify/suite"
 )
 

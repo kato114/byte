@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package stride_test
 
@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evmos/evmos/v15/precompiles/outposts/stride"
+	"github.com/kato114/byte/v15/precompiles/outposts/stride"
 
 	tmtypes "github.com/cometbft/cometbft/types"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
@@ -17,10 +17,10 @@ import (
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evmosapp "github.com/evmos/evmos/v15/app"
-	evmosibc "github.com/evmos/evmos/v15/ibc/testing"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmosapp "github.com/kato114/byte/v15/app"
+	evmosibc "github.com/kato114/byte/v15/ibc/testing"
+	"github.com/kato114/byte/v15/x/evm/statedb"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 
 	"github.com/stretchr/testify/suite"
 )

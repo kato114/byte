@@ -1,16 +1,16 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	evmostypes "github.com/evmos/evmos/v15/types"
+	evmostypes "github.com/kato114/byte/v15/types"
 
-	utils "github.com/evmos/evmos/v15/utils"
-	incentivestypes "github.com/evmos/evmos/v15/x/incentives/types"
-	"github.com/evmos/evmos/v15/x/inflation/v1/types"
+	utils "github.com/kato114/byte/v15/utils"
+	incentivestypes "github.com/kato114/byte/v15/x/incentives/types"
+	"github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 // 200M token at year 4 allocated to the team

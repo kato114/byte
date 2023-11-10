@@ -8,9 +8,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/distribution"
-	"github.com/evmos/evmos/v15/utils"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/distribution"
+	"github.com/kato114/byte/v15/utils"
 )
 
 func (s *PrecompileTestSuite) TestSetWithdrawAddressEvent() {

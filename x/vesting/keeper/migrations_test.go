@@ -5,10 +5,10 @@ import (
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	testutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/vesting/keeper"
-	v1vestingtypes "github.com/evmos/evmos/v15/x/vesting/migrations/types"
-	vestingtypes "github.com/evmos/evmos/v15/x/vesting/types"
+	testutiltx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/x/vesting/keeper"
+	v1vestingtypes "github.com/kato114/byte/v15/x/vesting/migrations/types"
+	vestingtypes "github.com/kato114/byte/v15/x/vesting/types"
 )
 
 func (suite *KeeperTestSuite) TestMigration() {

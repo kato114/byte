@@ -12,7 +12,7 @@
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the Evmos packages. If not, see https://github.com/evmos/evmos/blob/main/LICENSE
+// along with the Evmos packages. If not, see https://github.com/kato114/byte/blob/main/LICENSE
 package v5_test
 
 import (
@@ -22,11 +22,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/encoding"
-	v5 "github.com/evmos/evmos/v15/x/evm/migrations/v5"
-	v5types "github.com/evmos/evmos/v15/x/evm/migrations/v5/types"
-	"github.com/evmos/evmos/v15/x/evm/types"
+	"github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/encoding"
+	v5 "github.com/kato114/byte/v15/x/evm/migrations/v5"
+	v5types "github.com/kato114/byte/v15/x/evm/migrations/v5/types"
+	"github.com/kato114/byte/v15/x/evm/types"
 )
 
 // AvailableExtraEIPs define the list of all EIPs that can be enabled by the

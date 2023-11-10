@@ -11,9 +11,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
-	"github.com/evmos/evmos/v15/x/revenue/v1/types"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	"github.com/kato114/byte/v15/x/evm/statedb"
+	"github.com/kato114/byte/v15/x/revenue/v1/types"
 )
 
 func (suite *KeeperTestSuite) TestRegisterRevenue() {

@@ -1,12 +1,12 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v3 "github.com/evmos/evmos/v15/x/claims/migrations/v3"
-	"github.com/evmos/evmos/v15/x/claims/types"
+	v3 "github.com/kato114/byte/v15/x/claims/migrations/v3"
+	"github.com/kato114/byte/v15/x/claims/types"
 )
 
 // Migrator is a struct for handling in-place store migrations.

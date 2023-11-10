@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evmos/evmos/v15/utils"
+	"github.com/kato114/byte/v15/utils"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"
@@ -29,14 +29,14 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v15/encoding"
-	"github.com/evmos/evmos/v15/testutil"
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	evmostypes "github.com/evmos/evmos/v15/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	"github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/crypto/ethsecp256k1"
+	"github.com/kato114/byte/v15/encoding"
+	"github.com/kato114/byte/v15/testutil"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	evmostypes "github.com/kato114/byte/v15/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

@@ -1,15 +1,15 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package cli
 
 import (
-	rpctypes "github.com/evmos/evmos/v15/rpc/types"
+	rpctypes "github.com/kato114/byte/v15/rpc/types"
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 
-	"github.com/evmos/evmos/v15/x/evm/types"
+	"github.com/kato114/byte/v15/x/evm/types"
 )
 
 // GetQueryCmd returns the parent command for all x/bank CLi query commands.

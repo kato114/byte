@@ -3,7 +3,7 @@ package stride_test
 import (
 	"testing"
 
-	strideoutpost "github.com/evmos/evmos/v15/precompiles/outposts/stride"
+	strideoutpost "github.com/kato114/byte/v15/precompiles/outposts/stride"
 	"github.com/stretchr/testify/require"
 )
 

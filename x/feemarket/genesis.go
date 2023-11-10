@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package feemarket
 
 import (
@@ -7,8 +7,8 @@ import (
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v15/x/feemarket/keeper"
-	"github.com/evmos/evmos/v15/x/feemarket/types"
+	"github.com/kato114/byte/v15/x/feemarket/keeper"
+	"github.com/kato114/byte/v15/x/feemarket/types"
 )
 
 // InitGenesis initializes genesis state based on exported genesis

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package cosmos
 
 import (
@@ -19,11 +19,11 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v15/ethereum/eip712"
-	"github.com/evmos/evmos/v15/types"
+	"github.com/kato114/byte/v15/crypto/ethsecp256k1"
+	"github.com/kato114/byte/v15/ethereum/eip712"
+	"github.com/kato114/byte/v15/types"
 
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 )
 
 var evmosCodec codec.ProtoCodecMarshaler

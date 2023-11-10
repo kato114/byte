@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package eth
 
 import (
@@ -15,11 +15,11 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/evmos/evmos/v15/rpc/backend"
+	"github.com/kato114/byte/v15/rpc/backend"
 
-	rpctypes "github.com/evmos/evmos/v15/rpc/types"
-	"github.com/evmos/evmos/v15/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	rpctypes "github.com/kato114/byte/v15/rpc/types"
+	"github.com/kato114/byte/v15/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 )
 
 // The Ethereum API allows applications to connect to an Evmos node that is

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package network
 
 import (
@@ -10,12 +10,12 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/encoding"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
-	infltypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
-	revtypes "github.com/evmos/evmos/v15/x/revenue/v1/types"
+	"github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/encoding"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
+	infltypes "github.com/kato114/byte/v15/x/inflation/v1/types"
+	revtypes "github.com/kato114/byte/v15/x/revenue/v1/types"
 )
 
 func getQueryHelper(ctx sdktypes.Context) *baseapp.QueryServiceTestHelper {

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package ics20_test
 
 import (
@@ -14,18 +14,18 @@ import (
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	evmoscontracts "github.com/evmos/evmos/v15/contracts"
-	evmostesting "github.com/evmos/evmos/v15/ibc/testing"
-	"github.com/evmos/evmos/v15/precompiles/authorization"
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
-	"github.com/evmos/evmos/v15/precompiles/ics20"
-	"github.com/evmos/evmos/v15/precompiles/testutil"
-	"github.com/evmos/evmos/v15/precompiles/testutil/contracts"
-	evmosutil "github.com/evmos/evmos/v15/testutil"
-	teststypes "github.com/evmos/evmos/v15/types/tests"
-	"github.com/evmos/evmos/v15/utils"
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
-	inflationtypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
+	evmoscontracts "github.com/kato114/byte/v15/contracts"
+	evmostesting "github.com/kato114/byte/v15/ibc/testing"
+	"github.com/kato114/byte/v15/precompiles/authorization"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
+	"github.com/kato114/byte/v15/precompiles/ics20"
+	"github.com/kato114/byte/v15/precompiles/testutil"
+	"github.com/kato114/byte/v15/precompiles/testutil/contracts"
+	evmosutil "github.com/kato114/byte/v15/testutil"
+	teststypes "github.com/kato114/byte/v15/types/tests"
+	"github.com/kato114/byte/v15/utils"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
+	inflationtypes "github.com/kato114/byte/v15/x/inflation/v1/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"

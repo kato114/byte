@@ -1,11 +1,11 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v15/x/inflation/v1/types"
+	"github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 // GetParams returns the total set of inflation parameters.

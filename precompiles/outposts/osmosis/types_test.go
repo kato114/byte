@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/btcutil/bech32"
 	"github.com/ethereum/go-ethereum/common"
 
-	osmosisoutpost "github.com/evmos/evmos/v15/precompiles/outposts/osmosis"
-	"github.com/evmos/evmos/v15/utils"
+	osmosisoutpost "github.com/kato114/byte/v15/precompiles/outposts/osmosis"
+	"github.com/kato114/byte/v15/utils"
 	"github.com/stretchr/testify/require"
 )
 

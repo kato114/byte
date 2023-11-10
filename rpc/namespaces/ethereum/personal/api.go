@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package personal
 
 import (
@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/evmos/evmos/v15/rpc/backend"
+	"github.com/kato114/byte/v15/rpc/backend"
 
-	"github.com/evmos/evmos/v15/crypto/hd"
-	"github.com/evmos/evmos/v15/types"
+	"github.com/kato114/byte/v15/crypto/hd"
+	"github.com/kato114/byte/v15/types"
 
 	"github.com/cometbft/cometbft/libs/log"
 
@@ -23,7 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
 )
 
 // PrivateAccountAPI is the personal_ prefixed set of APIs in the Web3 JSON-RPC spec.

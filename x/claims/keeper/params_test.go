@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/evmos/evmos/v15/x/claims/types"
+	"github.com/kato114/byte/v15/x/claims/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package v2
 
@@ -7,8 +7,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v2types "github.com/evmos/evmos/v15/x/inflation/v1/migrations/v2/types"
-	"github.com/evmos/evmos/v15/x/inflation/v1/types"
+	v2types "github.com/kato114/byte/v15/x/inflation/v1/migrations/v2/types"
+	"github.com/kato114/byte/v15/x/inflation/v1/types"
 )
 
 // MigrateStore migrates the x/inflation module state from the consensus version 1 to

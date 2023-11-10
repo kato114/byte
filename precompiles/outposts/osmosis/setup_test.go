@@ -1,15 +1,15 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package osmosis_test
 
 import (
 	"testing"
 
-	"github.com/evmos/evmos/v15/precompiles/outposts/osmosis"
-	"github.com/evmos/evmos/v15/testutil/integration/evmos/grpc"
-	testkeyring "github.com/evmos/evmos/v15/testutil/integration/evmos/keyring"
-	"github.com/evmos/evmos/v15/testutil/integration/evmos/network"
+	"github.com/kato114/byte/v15/precompiles/outposts/osmosis"
+	"github.com/kato114/byte/v15/testutil/integration/evmos/grpc"
+	testkeyring "github.com/kato114/byte/v15/testutil/integration/evmos/keyring"
+	"github.com/kato114/byte/v15/testutil/integration/evmos/network"
 	"github.com/stretchr/testify/suite"
 )
 

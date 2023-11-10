@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package config
 
@@ -8,7 +8,7 @@ func EnableObservability() error {
 	// if true {
 	// Temporarily disabling this until we can configure out port reuse
 	// fast enough or enabling observability through the config.
-	// Please see https://github.com/evmos/evmos/v9/issues/84
+	// Please see https://github.com/kato114/byte/v9/issues/84
 	// return nil
 	// }
 

@@ -5,13 +5,13 @@ import (
 	"time"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/evmos/evmos/v15/utils"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	"github.com/kato114/byte/v15/utils"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 
-	simapp "github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/x/epochs"
-	"github.com/evmos/evmos/v15/x/epochs/types"
+	simapp "github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/x/epochs"
+	"github.com/kato114/byte/v15/x/epochs/types"
 )
 
 func TestEpochsExportGenesis(t *testing.T) {

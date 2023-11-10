@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package types
 
@@ -13,7 +13,7 @@ import (
 	govcdc "github.com/cosmos/cosmos-sdk/x/gov/codec"
 	v1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
-	evmostypes "github.com/evmos/evmos/v15/types"
+	evmostypes "github.com/kato114/byte/v15/types"
 )
 
 // constants

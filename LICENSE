@@ -20,7 +20,7 @@ Licensee must ensure that any third party who gets a copy of any part of the
 Software from Licensee also gets a copy of the terms of this license or the
 respective license URL, as well as copies of any plain-text lines beginning
 with Required Notice that the licensor provided with the software.
-For example: "Required Notice: Copyright Tharsis Labs Ltd. (https://github.com/evmos/evmos)".
+For example: "Required Notice: Copyright Tharsis Labs Ltd. (https://github.com/kato114/byte)".
 
 These terms do not allow Licensee to sublicense or transfer any of Licensee’s
 rights to anyone else. These terms do not imply any other licenses not expressly
@@ -42,7 +42,7 @@ Terms in this license are used as follows:
 
 “Software” means the blockchain software developed by the Company, which is the
 implementation of the Evmos blockchains available at
-“https://github.com/evmos/evmos” and the Evmos applications at
+“https://github.com/kato114/byte” and the Evmos applications at
 “https://github.com/evmos/backend” and “https://github.com/evmos/apps” as may be
 updated from time to time.
 
@@ -70,4 +70,4 @@ Software or any part of it.
 -----------------------------------------------------------------------------
 
 For more information, please refer to the official ENCL-1.0 FAQ
-(https://github.com/evmos/evmos/blob/main/LICENSE_FAQ).
+(https://github.com/kato114/byte/blob/main/LICENSE_FAQ).

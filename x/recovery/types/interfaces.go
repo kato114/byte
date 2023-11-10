@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package types
 
@@ -15,7 +15,7 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 
-	claimstypes "github.com/evmos/evmos/v15/x/claims/types"
+	claimstypes "github.com/kato114/byte/v15/x/claims/types"
 )
 
 // BankKeeper defines the banking keeper that must be fulfilled when

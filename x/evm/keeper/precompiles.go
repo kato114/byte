@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package keeper
 
@@ -16,15 +16,15 @@ import (
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	channelkeeper "github.com/cosmos/ibc-go/v7/modules/core/04-channel/keeper"
-	distprecompile "github.com/evmos/evmos/v15/precompiles/distribution"
-	ics20precompile "github.com/evmos/evmos/v15/precompiles/ics20"
-	strideoutpost "github.com/evmos/evmos/v15/precompiles/outposts/stride"
-	"github.com/evmos/evmos/v15/precompiles/p256"
-	stakingprecompile "github.com/evmos/evmos/v15/precompiles/staking"
-	vestingprecompile "github.com/evmos/evmos/v15/precompiles/vesting"
-	erc20Keeper "github.com/evmos/evmos/v15/x/erc20/keeper"
-	transferkeeper "github.com/evmos/evmos/v15/x/ibc/transfer/keeper"
-	vestingkeeper "github.com/evmos/evmos/v15/x/vesting/keeper"
+	distprecompile "github.com/kato114/byte/v15/precompiles/distribution"
+	ics20precompile "github.com/kato114/byte/v15/precompiles/ics20"
+	strideoutpost "github.com/kato114/byte/v15/precompiles/outposts/stride"
+	"github.com/kato114/byte/v15/precompiles/p256"
+	stakingprecompile "github.com/kato114/byte/v15/precompiles/staking"
+	vestingprecompile "github.com/kato114/byte/v15/precompiles/vesting"
+	erc20Keeper "github.com/kato114/byte/v15/x/erc20/keeper"
+	transferkeeper "github.com/kato114/byte/v15/x/ibc/transfer/keeper"
+	vestingkeeper "github.com/kato114/byte/v15/x/vesting/keeper"
 )
 
 // AvailablePrecompiles returns the list of all available precompiled contracts.

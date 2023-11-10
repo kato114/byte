@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package vesting
 
@@ -11,8 +11,8 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/evmos/evmos/v15/x/vesting/keeper"
-	"github.com/evmos/evmos/v15/x/vesting/types"
+	"github.com/kato114/byte/v15/x/vesting/keeper"
+	"github.com/kato114/byte/v15/x/vesting/types"
 )
 
 // NewVestingProposalHandler creates a governance handler to manage new proposal types.

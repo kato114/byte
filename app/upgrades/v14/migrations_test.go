@@ -4,9 +4,9 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	v14 "github.com/evmos/evmos/v15/app/upgrades/v14"
-	"github.com/evmos/evmos/v15/testutil"
-	testutiltx "github.com/evmos/evmos/v15/testutil/tx"
+	v14 "github.com/kato114/byte/v15/app/upgrades/v14"
+	"github.com/kato114/byte/v15/testutil"
+	testutiltx "github.com/kato114/byte/v15/testutil/tx"
 )
 
 // TestUpdateMigrateNativeMultisigs is the main test for the migration of the strategic reserves and the premint wallet.

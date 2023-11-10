@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package recovery
 
@@ -21,9 +21,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/evmos/evmos/v15/x/recovery/client/cli"
-	"github.com/evmos/evmos/v15/x/recovery/keeper"
-	"github.com/evmos/evmos/v15/x/recovery/types"
+	"github.com/kato114/byte/v15/x/recovery/client/cli"
+	"github.com/kato114/byte/v15/x/recovery/keeper"
+	"github.com/kato114/byte/v15/x/recovery/types"
 )
 
 // consensusVersion defines the current x/recovery module consensus version.

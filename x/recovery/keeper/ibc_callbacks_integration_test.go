@@ -6,12 +6,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	"github.com/evmos/evmos/v15/app"
-	ibctesting "github.com/evmos/evmos/v15/ibc/testing"
-	"github.com/evmos/evmos/v15/testutil"
-	teststypes "github.com/evmos/evmos/v15/types/tests"
-	claimstypes "github.com/evmos/evmos/v15/x/claims/types"
-	"github.com/evmos/evmos/v15/x/recovery/types"
+	"github.com/kato114/byte/v15/app"
+	ibctesting "github.com/kato114/byte/v15/ibc/testing"
+	"github.com/kato114/byte/v15/testutil"
+	teststypes "github.com/kato114/byte/v15/types/tests"
+	claimstypes "github.com/kato114/byte/v15/x/claims/types"
+	"github.com/kato114/byte/v15/x/recovery/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"

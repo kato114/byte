@@ -6,14 +6,14 @@ It is used for testing chain upgrades,
 as it allows for initializing multiple Evmos chains with different versions.
 
 - [End-to-End Testing Suite](#end-to-end-testing-suite)
-    - [Quick Start](#quick-start)
-    - [Upgrade Process](#upgrade-process)
-    - [Test Suite Structure](#test-suite-structure)
-        - [`e2e` Package](#e2e-package)
-        - [`upgrade` Package](#upgrade-package)
-        - [Version retrieve](#version-retrieve)
-        - [Testing Results](#testing-results)
-    - [Running multiple upgrades](#running-multiple-upgrades)
+  - [Quick Start](#quick-start)
+  - [Upgrade Process](#upgrade-process)
+  - [Test Suite Structure](#test-suite-structure)
+    - [`e2e` Package](#e2e-package)
+    - [`upgrade` Package](#upgrade-package)
+    - [Version retrieve](#version-retrieve)
+    - [Testing Results](#testing-results)
+  - [Running multiple upgrades](#running-multiple-upgrades)
 
 ### Quick Start
 
@@ -66,19 +66,19 @@ make test-e2e E2E_SKIP_CLEANUP=true INITIAL_VERSION=<tag> TARGET_VERSION=<tag>
 Testing a chain upgrade is a multi-step process:
 
 1. Build a docker image for the evmos target version
-(local repo by default, if no explicit `TARGET_VERSION` provided as argument)
-(e.g. `v10.0.0`)
+   (local repo by default, if no explicit `TARGET_VERSION` provided as argument)
+   (e.g. `v10.0.0`)
 2. Run tests
 3. The e2e test will first run an `INITIAL_VERSION` node container.
 4. The node will submit, deposit and vote for an upgrade proposal
-for upgrading to the `TARGET_VERSION`.
+   for upgrading to the `TARGET_VERSION`.
 5. After block `50` is reached,
-the test suite exports `/.evmosd` folder from the docker container
-to the local `build/` folder and then purges the container.
+   the test suite exports `/.evmosd` folder from the docker container
+   to the local `build/` folder and then purges the container.
 6. Suite will mount the node with `TARGET_VERSION`
-to the local `build/` dir and start the node.
-The node will get upgrade information from `upgrade-info.json`
-and will execute the upgrade.
+   to the local `build/` dir and start the node.
+   The node will get upgrade information from `upgrade-info.json`
+   and will execute the upgrade.
 
 ## Test Suite Structure
 
@@ -96,15 +96,15 @@ performing the chain upgrade,
 and running the latest test suite.  
 Here's an overview of the files:
 
-* `e2e_suite_test.go`: defines the testing suite
-and contains the core bootstrapping logic
-that creates a testing environment via Docker containers.
-A testing network is created dynamically with 2 test validators.
+- `e2e_suite_test.go`: defines the testing suite
+  and contains the core bootstrapping logic
+  that creates a testing environment via Docker containers.
+  A testing network is created dynamically with 2 test validators.
 
-* `e2e_test.go`: contains the actual end-to-end integration tests
-that utilize the testing suite.
+- `e2e_test.go`: contains the actual end-to-end integration tests
+  that utilize the testing suite.
 
-* `e2e_utils_test.go`: contains suite upgrade params loading logic.
+- `e2e_utils_test.go`: contains suite upgrade params loading logic.
 
 ### `upgrade` Package
 
@@ -113,14 +113,14 @@ Suite will utilize `Manager`'s functions
 to run different versions of evmos containers,
 propose, vote, delegate and query nodes.
 
-* `manager.go`: defines core manager logic for running containers,
-export state and create networks.
+- `manager.go`: defines core manager logic for running containers,
+  export state and create networks.
 
-* `govexec.go`: defines `gov-specific` exec commands to submit/delegate/vote
-through nodes `gov` module.
+- `govexec.go`: defines `gov-specific` exec commands to submit/delegate/vote
+  through nodes `gov` module.
 
-* `node.go`: defines `Node` structure
-responsible for setting node container parameters before run.
+- `node.go`: defines `Node` structure
+  responsible for setting node container parameters before run.
 
 ### Version retrieve
 
@@ -145,7 +145,7 @@ In case of a successful upgrade,
 the script will print the following output (example):
 
 ```log
-ok  	github.com/evmos/evmos/v9/tests/e2e	174.137s.
+ok  	github.com/kato114/byte/v9/tests/e2e	174.137s.
 ```
 
 If the target node version fails to start,
@@ -165,7 +165,7 @@ Error:  Received unexpected error:
         github.com/cosmos/cosmos-sdk/baseapp.SetMinGasPrices({0xc0013563e7?, ...
             github.com/cosmos/cosmos-sdk@v0.46.5/baseapp/options.go:29 +0xd9
         main.appCreator.newApp({{{0x3399b40, 0xc000ec1db8}, {0x33ac0f8, 0xc00...
-            github.com/evmos/evmos/v10/cmd/evmosd/root.go:243 +0x2ca
+            github.com/kato114/byte/v10/cmd/evmosd/root.go:243 +0x2ca
         github.com/evmos/ethermint/server.startInProcess(_, {{0x0, 0x0, 0x0},...
             github.com/evmos/ethermint@v0.20.0-rc2/server/start.go:304 +0x9c5
         github.com/evmos/ethermint/server.StartCmd.func2(0xc001620600?, {0xc0...
@@ -181,7 +181,7 @@ Error:  Received unexpected error:
         github.com/cosmos/cosmos-sdk/server/cmd.Execute(0x2170d50?, {0x26d961...
             github.com/cosmos/cosmos-sdk@v0.46.5/server/cmd/execute.go:36 +0x...
         main.main()
-            github.com/evmos/evmos/v10/cmd/evmosd/main.go:20 +0x45
+            github.com/kato114/byte/v10/cmd/evmosd/main.go:20 +0x45
 
 
         [output stream]:

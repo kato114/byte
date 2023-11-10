@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 //go:build rocksdb
 // +build rocksdb
@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 
 	versiondbclient "github.com/crypto-org-chain/cronos/versiondb/client"
-	"github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/cmd/evmosd/opendb"
+	"github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/cmd/evmosd/opendb"
 )
 
 // ChangeSetCmd returns a Cobra command for interacting with change sets.

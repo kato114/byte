@@ -39,7 +39,7 @@ buildGoApplication rec {
 
   meta = with lib; {
     description = "Evmos is a scalable and interoperable blockchain, built on Proof-of-Stake with fast-finality using the Cosmos SDK which runs on top of CometBFT Core consensus engine.";
-    homepage = "https://github.com/evmos/evmos";
+    homepage = "https://github.com/kato114/byte";
     license = licenses.asl20;
     mainProgram = "evmosd";
   };

@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package erc20
 
@@ -7,7 +7,7 @@ import (
 	"embed"
 	"fmt"
 
-	cmn "github.com/evmos/evmos/v15/precompiles/common"
+	cmn "github.com/kato114/byte/v15/precompiles/common"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
@@ -16,9 +16,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	auth "github.com/evmos/evmos/v15/precompiles/authorization"
-	erc20types "github.com/evmos/evmos/v15/x/erc20/types"
-	transferkeeper "github.com/evmos/evmos/v15/x/ibc/transfer/keeper"
+	auth "github.com/kato114/byte/v15/precompiles/authorization"
+	erc20types "github.com/kato114/byte/v15/x/erc20/types"
+	transferkeeper "github.com/kato114/byte/v15/x/ibc/transfer/keeper"
 )
 
 // abiPath defines the path to the ERC-20 precompile ABI JSON file.

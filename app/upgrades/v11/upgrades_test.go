@@ -12,12 +12,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	ibctypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
-	"github.com/evmos/evmos/v15/app"
-	v11 "github.com/evmos/evmos/v15/app/upgrades/v11"
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
-	"github.com/evmos/evmos/v15/testutil"
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	"github.com/kato114/byte/v15/app"
+	v11 "github.com/kato114/byte/v15/app/upgrades/v11"
+	"github.com/kato114/byte/v15/crypto/ethsecp256k1"
+	"github.com/kato114/byte/v15/testutil"
+	utiltx "github.com/kato114/byte/v15/testutil/tx"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
 	"github.com/stretchr/testify/suite"
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
@@ -26,7 +26,7 @@ import (
 	"github.com/cometbft/cometbft/version"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/evmos/evmos/v15/utils"
+	"github.com/kato114/byte/v15/utils"
 )
 
 type UpgradeTestSuite struct {

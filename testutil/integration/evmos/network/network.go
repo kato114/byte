@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 package network
 
 import (
@@ -7,22 +7,22 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/evmos/evmos/v15/app"
-	"github.com/evmos/evmos/v15/types"
+	"github.com/kato114/byte/v15/app"
+	"github.com/kato114/byte/v15/types"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	commonnetwork "github.com/evmos/evmos/v15/testutil/integration/common/network"
+	commonnetwork "github.com/kato114/byte/v15/testutil/integration/common/network"
 
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	tmtypes "github.com/cometbft/cometbft/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
-	infltypes "github.com/evmos/evmos/v15/x/inflation/v1/types"
-	revtypes "github.com/evmos/evmos/v15/x/revenue/v1/types"
+	evmtypes "github.com/kato114/byte/v15/x/evm/types"
+	feemarkettypes "github.com/kato114/byte/v15/x/feemarket/types"
+	infltypes "github.com/kato114/byte/v15/x/inflation/v1/types"
+	revtypes "github.com/kato114/byte/v15/x/revenue/v1/types"
 )
 
 // Network is the interface that wraps the methods to interact with integration test network.

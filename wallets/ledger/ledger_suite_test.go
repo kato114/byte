@@ -1,5 +1,5 @@
 // Copyright Tharsis Labs Ltd.(Evmos)
-// SPDX-License-Identifier:ENCL-1.0(https://github.com/evmos/evmos/blob/main/LICENSE)
+// SPDX-License-Identifier:ENCL-1.0(https://github.com/kato114/byte/blob/main/LICENSE)
 
 package ledger_test
 
@@ -20,9 +20,9 @@ import (
 	auxTx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/evmos/evmos/v15/wallets/ledger"
-	"github.com/evmos/evmos/v15/wallets/ledger/mocks"
-	"github.com/evmos/evmos/v15/wallets/usbwallet"
+	"github.com/kato114/byte/v15/wallets/ledger"
+	"github.com/kato114/byte/v15/wallets/ledger/mocks"
+	"github.com/kato114/byte/v15/wallets/usbwallet"
 )
 
 type LedgerTestSuite struct {
