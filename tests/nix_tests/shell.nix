@@ -11,7 +11,7 @@ pkgs.mkShell {
     pkgs.test-env
     pkgs.gomod2nix
     pkgs.rocksdb
-    pkgs.evmosd-rocksdb
+    pkgs.byted-rocksdb
     pkgs.chain-maind
     pkgs.strided
     pkgs.osmosisd

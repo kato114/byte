@@ -418,7 +418,7 @@ local default = import '{tests_dir}/configs/{file_name}.jsonnet';
 default {{
   dotenv: '{root_dir}/scripts/.env',
   'evmos_9000-1'+: {{
-    cmd: 'evmosd-rocksdb',
+    cmd: 'byted-rocksdb',
     'app-config'+: {{
       'app-db-backend': 'rocksdb',
       memiavl: {{
@@ -497,7 +497,7 @@ def register_wevmos(evmos):
     """
     this helper function registers the WEVMOS
     token in the ERC20 module and returns the contract address.
-    Make sure to patch the evmosd binary with the allow-wevmos-register patch
+    Make sure to patch the byted binary with the allow-wevmos-register patch
     for this to be successful
     """
     cli = evmos.cosmos_cli()

@@ -51,7 +51,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Improvements
 
-- (testnet) [#1864](https://github.com/kato114/byte/pull/1864) Add `--base-fee` and `--min-gas-price` flags to the command `evmosd testnet init-files`.
+- (testnet) [#1864](https://github.com/kato114/byte/pull/1864) Add `--base-fee` and `--min-gas-price` flags to the command `byted testnet init-files`.
 - (stride-outpost) [#1912](https://github.com/kato114/byte/pull/1912) Add Stride Outpost interface and ABI.
 - (stride-outpost) [#1913](https://github.com/kato114/byte/pull/1913) Add Run function, Precompile struct and tx definitions.
 - (stride-outpost) [#1914](https://github.com/kato114/byte/pull/1914) Add types, events and common util function.
@@ -127,7 +127,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 - (consensus) [#1740](https://github.com/kato114/byte/pull/1740) Enable setting block gas limit to max by specifying it as -1 in the genesis file.
 - (ante) [#1753](https://github.com/kato114/byte/pull/1753) Handle zero fee case on evm transactions.
 - (rpc) [#1829](https://github.com/kato114/byte/pull/1829) Bump IAVL to v0.20.1 to fix concurrency issue
-- (testnet) [#1857](https://github.com/kato114/byte/pull/1857) Remove the crisis module causing an error when using the `evmosd testnet init-files` command.
+- (testnet) [#1857](https://github.com/kato114/byte/pull/1857) Remove the crisis module causing an error when using the `byted testnet init-files` command.
 - (rpc) [#1863](https://github.com/kato114/byte/pull/1863) Handle error gracefully on RPC calls when node is not persisting ABCI responses.
 - (ibc) [#1918](https://github.com/kato114/byte/pull/1918) Upgrade ibc-go to `v7.3.1`, which (among other things) fixes the `DenomTraces` REST endpoint.
 - (gov) [#1981](https://github.com/kato114/byte/pull/1981) Remove deprecated `cosmos.params.v1beta1/ParameterChangeProposal` handler
@@ -165,7 +165,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 - (mod) [#1674](https://github.com/kato114/byte/pull/1674) Update `evmos` module name to `evmos/v14`
 - (vesting)[#1672](https://github.com/kato114/byte/pull/1672) Port `vesting` precompile code and refactor integration tests
 - (vesting)[#1667](https://github.com/kato114/byte/pull/1667) Add support for vesting precompile in the `evm` module
-- (cli) [#1647](https://github.com/kato114/byte/pull/1647) Update defaults on `evmosd start` flags.
+- (cli) [#1647](https://github.com/kato114/byte/pull/1647) Update defaults on `byted start` flags.
 - (vesting) Refactor vesting flow
 
 ### Bug Fixes
@@ -175,7 +175,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 - (evm) [#1703](https://github.com/kato114/byte/pull/1703) Prevent panic on uint64 conversion in EVM keeper `ApplyMessageWithConfig` function.
 - (ante) [#1693](https://github.com/kato114/byte/pull/1693) Prevent panic on int64 conversion in EVM fees antehandler.
 - (cli) [#1681](https://github.com/kato114/byte/pull/1681) Add `bootstrap-state` command.
-- (e2e) [#1678](https://github.com/kato114/byte/pull/1678) Fix e2e tests after recent changes to `evmosd start` default flags
+- (e2e) [#1678](https://github.com/kato114/byte/pull/1678) Fix e2e tests after recent changes to `byted start` default flags
 - (rpc) [#1676](https://github.com/kato114/byte/pull/1676) Fix gas meter stacking gas from predecessors in `TraceTx` & `TraceBlock` functions.
 - (rpc) [#1663](https://github.com/kato114/byte/pull/1663) Fix block number returned in opcode for debug trace related api.
 - (revenue) [#1659](https://github.com/kato114/byte/pull/1659) Check if DevelopersShares are set to 0
@@ -439,7 +439,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 - (app) [#1165](https://github.com/kato114/byte/pull/1165) Update Ledger supported algorithms to only consist of `EthSecp256k1`
 - (cmd) [#1172](https://github.com/kato114/byte/pull/1172) Update default node snapshot interval to `5000`
-- (cmd) [\#1121](https://github.com/kato114/byte/pull/1121) Fix `evmosd version` to show either tag or last commit.
+- (cmd) [\#1121](https://github.com/kato114/byte/pull/1121) Fix `byted version` to show either tag or last commit.
 - (cmd) [\#1120](https://github.com/kato114/byte/pull/1120) Fix snapshot configuration
 - (app) [\#1118](https://github.com/kato114/byte/pull/1118) Setup gRPC node service with the application.
 - (analytics) [\#1094](https://github.com/kato114/byte/pull/1094) Fix unbound metrics and remove labels that keep increasing.

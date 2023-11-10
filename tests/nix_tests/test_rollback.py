@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 from pystarport import ports
 
-from .network import build_patched_evmosd, setup_custom_evmos
+from .network import build_patched_byted, setup_custom_evmos
 from .utils import (
     supervisorctl,
     update_evmos_bin,
@@ -16,7 +16,7 @@ from .utils import (
 @pytest.fixture(scope="module")
 def custom_evmos(tmp_path_factory):
     path = tmp_path_factory.mktemp("rollback")
-    broken_binary = build_patched_evmosd("broken-evmosd")
+    broken_binary = build_patched_byted("broken-byted")
     print(broken_binary)
 
     # init with genesis binary
@@ -58,7 +58,7 @@ def test_rollback(custom_evmos):
     cli1.rollback()
 
     print("switch to normal binary")
-    update_node_cmd(custom_evmos.base_dir, "evmosd", 1)
+    update_node_cmd(custom_evmos.base_dir, "byted", 1)
     supervisorctl(custom_evmos.base_dir / "../tasks.ini", "update")
     wait_for_port(target_port)
 

@@ -2,7 +2,7 @@ local config = import 'default.jsonnet';
 
 config {
   'evmos_9000-1'+: {
-    cmd: 'evmosd-rocksdb',    
+    cmd: 'byted-rocksdb',    
     'app-config'+: {
       'app-db-backend': 'rocksdb',      
       pruning: 'everything',

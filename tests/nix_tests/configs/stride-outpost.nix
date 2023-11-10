@@ -1,7 +1,7 @@
 { pkgs ? import ../../../nix { } }:
-let evmosd = (pkgs.callPackage ../../../. { });
+let byted = (pkgs.callPackage ../../../. { });
 in
-evmosd.overrideAttrs (oldAttrs: {
+byted.overrideAttrs (oldAttrs: {
   # Patch the evmos binary to:
   # - allow to register WEVMOS token pair
   # - use channel-0 for the stride outpost

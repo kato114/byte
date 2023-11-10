@@ -37,9 +37,9 @@ func NewEvmosCoin(amount sdkmath.Int) sdk.Coin {
 	return sdk.NewCoin(AttoEvmos, amount)
 }
 
-// NewEvmosDecCoin is a utility function that returns an "aevmos" decimal coin with the given sdkmath.Int amount.
+// NewbytedecCoin is a utility function that returns an "aevmos" decimal coin with the given sdkmath.Int amount.
 // The function will panic if the provided amount is negative.
-func NewEvmosDecCoin(amount sdkmath.Int) sdk.DecCoin {
+func NewbytedecCoin(amount sdkmath.Int) sdk.DecCoin {
 	return sdk.NewDecCoin(AttoEvmos, amount)
 }
 

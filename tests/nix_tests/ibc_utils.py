@@ -8,7 +8,7 @@ from pystarport import ports
 from .network import (
     CosmosChain,
     Hermes,
-    build_patched_evmosd,
+    build_patched_byted,
     create_snapshots_dir,
     setup_custom_evmos,
 )
@@ -21,12 +21,12 @@ RATIO = 10**10
 IBC_CHAINS_META = {
     "evmos": {
         "chain_name": "evmos_9000-1",
-        "bin": "evmosd",
+        "bin": "byted",
         "denom": "aevmos",
     },
     "evmos-rocksdb": {
         "chain_name": "evmos_9000-1",
-        "bin": "evmosd-rocksdb",
+        "bin": "byted-rocksdb",
         "denom": "aevmos",
     },
     "chainmain": {
@@ -74,14 +74,14 @@ def get_evmos_generator(
             tmp_path,
             26710,
             Path(__file__).parent / file,
-            chain_binary="evmosd-rocksdb",
+            chain_binary="byted-rocksdb",
             post_init=create_snapshots_dir,
         )
     else:
         file = f"configs/{file}.jsonnet"
         if custom_scenario:
             # build the binary modified for a custom scenario
-            modified_bin = build_patched_evmosd(custom_scenario)
+            modified_bin = build_patched_byted(custom_scenario)
             gen = setup_custom_evmos(
                 tmp_path,
                 26700,

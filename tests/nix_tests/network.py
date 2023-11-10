@@ -12,7 +12,7 @@ from web3.middleware import geth_poa_middleware
 from .cosmoscli import CosmosCLI
 from .utils import memiavl_config, supervisorctl, wait_for_port
 
-DEFAULT_CHAIN_BINARY = "evmosd"
+DEFAULT_CHAIN_BINARY = "byted"
 
 
 class Evmos:
@@ -130,7 +130,7 @@ def setup_evmos_rocksdb(path, base_port, long_timeout_commit=False):
         path,
         base_port,
         cfg,
-        chain_binary="evmosd-rocksdb",
+        chain_binary="byted-rocksdb",
         post_init=create_snapshots_dir,
     )
 
@@ -199,7 +199,7 @@ def setup_custom_evmos(
         proc.wait()
 
 
-def build_patched_evmosd(patch_nix_file):
+def build_patched_byted(patch_nix_file):
     """
     build the binary modified for a custom scenario
     e.g. allow to register WEVMOS token
@@ -213,5 +213,5 @@ def build_patched_evmosd(patch_nix_file):
     print(*cmd)
     return (
         Path(subprocess.check_output(cmd, universal_newlines=True, text=True).strip())
-        / "bin/evmosd"
+        / "bin/byted"
     )

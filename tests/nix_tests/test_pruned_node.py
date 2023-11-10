@@ -39,7 +39,7 @@ def pruned_rocksdb(tmp_path_factory):
         tmp_path_factory.mktemp("pruned-rocksdb"),
         26700,
         Path(__file__).parent / "configs/memiavl-pruned_node.jsonnet",
-        chain_binary="evmosd-rocksdb",
+        chain_binary="byted-rocksdb",
         post_init=create_snapshots_dir,
     )
 

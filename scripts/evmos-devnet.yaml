@@ -1,6 +1,6 @@
 dotenv: .env
 evmos_9000-1:
-  cmd: evmosd
+  cmd: byted
   start-flags: "--trace"
   app-config:
     minimum-gas-prices: 0aevmos
@@ -12,7 +12,7 @@ evmos_9000-1:
       api: "eth,net,web3,debug"
       enable: true
     api:
-      enable: true    
+      enable: true
   validators:
     - coins: 10001000000000000000000aevmos
       staked: 1000000000000000000aevmos
@@ -42,13 +42,13 @@ evmos_9000-1:
           evm_denom: aevmos
       crisis:
         constant_fee:
-          denom: aevmos          
+          denom: aevmos
       staking:
         params:
-          bond_denom: aevmos      
+          bond_denom: aevmos
       inflation:
         params:
-          mint_denom: aevmos              
+          mint_denom: aevmos
       gov:
         voting_params:
           voting_period: "10s"
@@ -60,7 +60,7 @@ evmos_9000-1:
         params:
           min_deposit:
             - denom: aevmos
-              amount: "1"        
+              amount: "1"
       transfer:
         params:
           receive_enabled: true

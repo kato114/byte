@@ -28,7 +28,7 @@ COPY ./init-node.sh .
 # perms to make init-node.sh executable
 RUN chmod +x init-node.sh
 
-COPY --from=build-env /go/src/github.com/kato114/byte/build/evmosd /usr/bin/evmosd
+COPY --from=build-env /go/src/github.com/kato114/byte/build/byted /usr/bin/byted
 
 EXPOSE 26656 26657 1317 9090 8545 8546
 

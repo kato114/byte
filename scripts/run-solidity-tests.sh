@@ -3,7 +3,7 @@ export GOPATH="$HOME"/go
 export PATH="$PATH":"$GOPATH"/bin
 
 # remove existing data
-rm -rf "$HOME"/.evmosd
+rm -rf "$HOME"/.byted
 
 # build evmos binary
 make install

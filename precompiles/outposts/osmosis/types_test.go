@@ -321,12 +321,12 @@ func TestValidateMemo(t *testing.T) {
 func TestValidateInputOutput(t *testing.T) {
 	t.Parallel()
 
-	aevmosDenom := "aevmos"
+	abytedenom := "aevmos"
 	stakingDenom := "aevmos"
 	portID := "transfer"
 	channelID := "channel-0"
 	uosmosDenom := utils.ComputeIBCDenom(portID, channelID, osmosisoutpost.OsmosisDenom)
-	validInputs := []string{aevmosDenom, uosmosDenom}
+	validInputs := []string{abytedenom, uosmosDenom}
 
 	testCases := []struct {
 		name         string
@@ -340,7 +340,7 @@ func TestValidateInputOutput(t *testing.T) {
 	}{
 		{
 			name:         "pass - correct input and output",
-			inputDenom:   aevmosDenom,
+			inputDenom:   abytedenom,
 			outputDenom:  uosmosDenom,
 			stakingDenom: stakingDenom,
 			portID:       portID,
@@ -349,13 +349,13 @@ func TestValidateInputOutput(t *testing.T) {
 		},
 		{
 			name:         "fail - input equal to output aevmos",
-			inputDenom:   aevmosDenom,
-			outputDenom:  aevmosDenom,
+			inputDenom:   abytedenom,
+			outputDenom:  abytedenom,
 			stakingDenom: stakingDenom,
 			portID:       portID,
 			channelID:    channelID,
 			expPass:      false,
-			errContains:  fmt.Sprintf(osmosisoutpost.ErrInputEqualOutput, aevmosDenom),
+			errContains:  fmt.Sprintf(osmosisoutpost.ErrInputEqualOutput, abytedenom),
 		},
 		{
 			name:         "fail - input equal to output ibc osmo",

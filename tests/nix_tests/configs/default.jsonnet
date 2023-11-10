@@ -3,7 +3,7 @@
   'evmos_9000-1': {
     'account-prefix': 'evmos',
     'coin-type': 60,
-    cmd: 'evmosd',
+    cmd: 'byted',
     'start-flags': '--trace',
     'app-config': {
       'app-db-backend': 'goleveldb',      
